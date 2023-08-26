@@ -59,3 +59,5 @@ else:
     print("------------------------------------------------")
     print(f"Total amount spent during the trip is : {total_spent}€")
     print("------------------------------------------------")
+
+# -----
