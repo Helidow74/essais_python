@@ -70,6 +70,8 @@ list_of_questions = (
         Question("Quelle est la capitale de la Belgique ?",
                  ("Anvers", "Bruxelles", "Bruges", "Liège"), "Bruxelles"),
         Question("Quelle est la capitale de l'Ukraine ?",
-                 ("Moscou", "Kiev", "Saint-petersbourg", "Melitopol", "Odessa"), "Kiev")
+                 ("Moscou", "Kiev", "Saint-petersbourg", "Melitopol", "Odessa"), "Kiev"),
+        Question("Quelle est la capitale de la Grèce ?",
+                 ("Santorin", "Bruges", "Athènes", "Odessa", "Olympe"), "Athènes")
     )
 questionnaire = Questionnaire(list_of_questions).lancer_questionnaire()
