@@ -63,18 +63,13 @@ class Questionnaire:
 
 
 list_of_questions = (
-        Question("Quelle est la capitale de la France ?", ("Marseille", "Nice", "Paris", "Nantes", "Lille"), "Paris"),
-        Question("Quelle est la capitale de l'Italie ?", ("Rome", "Venise", "Pise", "Florence"), "Rome"),
-        Question("Quelle est la capitale de la Belgique ?", ("Anvers", "Bruxelles", "Bruges", "Liège"), "Bruxelles"),
-        Question("Quelle est la capitale de l'Ukraine ?", ("Moscou", "Kiev", "Saint-petersbourg", "Melitopol", "Odessa")
-                 , "Kiev")
+        Question("Quelle est la capitale de la France ?",
+                 ("Marseille", "Nice", "Paris", "Nantes", "Lille"), "Paris"),
+        Question("Quelle est la capitale de l'Italie ?",
+                 ("Rome", "Venise", "Pise", "Florence"), "Rome"),
+        Question("Quelle est la capitale de la Belgique ?",
+                 ("Anvers", "Bruxelles", "Bruges", "Liège"), "Bruxelles"),
+        Question("Quelle est la capitale de l'Ukraine ?",
+                 ("Moscou", "Kiev", "Saint-petersbourg", "Melitopol", "Odessa"), "Kiev")
     )
 questionnaire = Questionnaire(list_of_questions).lancer_questionnaire()
-
-
-
-
-
-
-
-
